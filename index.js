@@ -7,7 +7,7 @@ let weather = {
     "apiKey": 'ab3568972aeb2a976ce227c16c469c1d',
     fetchWeather: function (zip) {
         fetch(
-            'http://api.openweathermap.org/geo/1.0/zip?zip=' 
+            'https://api.openweathermap.org/geo/1.0/zip?zip=' 
             + zip + ',US&appid=' 
             + this.apiKey
             )
